@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="opciones_productos">
+        <item>Hojuelas de Cebada</item>
+        <item>Hojuelas de Avena</item>
+        <item>Harina de linaza café</item>
+        <item>Harina de Quinoa</item>
+    </string-array>
+</resources>

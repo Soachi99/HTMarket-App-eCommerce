@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OptionsActivity">
+
+    <Button
+        android:id="@+id/escaner"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="351dp"
+        android:layout_marginEnd="0dp"
+        android:drawableLeft="@drawable/escaner"
+        android:paddingLeft="10dp"
+        android:text="   Escaner"
+        android:textAlignment="textStart"
+        android:textColor="#9F000000" />
+
+    <Button
+        android:id="@+id/preferencias"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="424dp"
+        android:layout_marginEnd="3dp"
+        android:drawableLeft="@drawable/preferencias"
+        android:paddingLeft="10dp"
+        android:text="   Mis preferencias"
+        android:textAlignment="textStart"
+        android:textColor="#9F000000" />
+
+    <Button
+        android:id="@+id/cerrar"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="497dp"
+        android:layout_marginEnd="1dp"
+        android:drawableLeft="@drawable/cerrar"
+        android:paddingLeft="10dp"
+        android:text="  Cerrar Sesión"
+        android:textAlignment="textStart"
+        android:textColor="#9F000000" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="204dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/menu_design"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image_op"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:src="@drawable/profile"
+        app:civ_border_color="#FFFFFF"
+        app:civ_border_width="2dp" />
+
+    <TextView
+        android:id="@+id/textousuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="145dp"
+        android:text="Usuario"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textocorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="165dp"
+        android:text="Correo"
+        android:textColor="#C4FFFFFF"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/Historial"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="204dp"
+        android:layout_marginEnd="1dp"
+        android:drawableLeft="@drawable/historial"
+        android:paddingLeft="10dp"
+        android:text="   Historial de Compras"
+        android:textAlignment="textStart"
+        android:textColor="#9F000000" />
+
+    <Button
+        android:id="@+id/Comparar"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="278dp"
+        android:layout_marginEnd="0dp"
+        android:drawableLeft="@drawable/comparar"
+        android:paddingLeft="10dp"
+        android:text="   Comparar Productos"
+        android:textAlignment="textStart"
+        android:textColor="#9F000000" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="392dp"
+        android:layout_height="2dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="275dp"
+        app:srcCompat="@drawable/shadow" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="392dp"
+        android:layout_height="2dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="349dp"
+        app:srcCompat="@drawable/shadow" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="392dp"
+        android:layout_height="2dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="422dp"
+        app:srcCompat="@drawable/shadow" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="392dp"
+        android:layout_height="2dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="494dp"
+        app:srcCompat="@drawable/shadow" />
+
+    <Button
+        android:id="@+id/editar"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="41dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="17dp"
+        android:background="@drawable/editar" />
+
+
+</RelativeLayout>

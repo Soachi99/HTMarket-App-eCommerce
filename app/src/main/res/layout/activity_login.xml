@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="171dp"
+        android:fontFamily="@font/natural"
+        android:text="Hola! "
+        android:textColor="#749B1F"
+        android:textSize="96sp" />
+
+    <EditText
+        android:id="@+id/user_input_number"
+        android:layout_width="324dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="304dp"
+        android:layout_marginEnd="46dp"
+        android:background="@drawable/input_design"
+        android:drawableLeft="@drawable/celular"
+        android:ems="10"
+        android:hint="Numero de Celular"
+        android:inputType="number"
+        android:paddingLeft="20dp"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/contra_input_text"
+        android:layout_width="324dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="383dp"
+        android:layout_marginEnd="47dp"
+        android:background="@drawable/input_design"
+        android:drawableLeft="@drawable/contra"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:textSize="17sp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="33dp"
+        android:fontFamily="@font/natural"
+        android:text="Recordarme"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/olvide_contra"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="441dp"
+        android:fontFamily="sans-serif"
+        android:text="Olvide mi contraseña"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/logbtn"
+        android:layout_width="231dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="525dp"
+        android:background="@drawable/round_btn"
+        android:text="Log in"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/resbtn"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="591dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/round_btn"
+        android:text="Registrate"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmOrderActivity">
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/natural"
+        android:text="Confirmar orden"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/natural"
+        android:layout_below="@+id/textDetails"
+        android:text="Metodo de pago"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="86dp"
+        android:text="Por favor llena los datos a continuación para confirmar tu orden" />
+
+    <EditText
+        android:id="@+id/textAddress"
+        android:layout_width="332dp"
+        android:layout_height="47dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="138dp"
+        android:background="@drawable/input_design"
+        android:drawableLeft="@drawable/gps_app"
+        android:ems="10"
+        android:hint="Dirección de entrega"
+        android:inputType="text"
+        android:paddingLeft="8dp" />
+
+    <EditText
+        android:id="@+id/textDetails"
+        android:layout_width="332dp"
+        android:layout_height="47dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="197dp"
+        android:background="@drawable/input_design"
+        android:drawableLeft="@drawable/gps_app"
+        android:ems="10"
+        android:hint="Casa/Torre/Apto"
+        android:inputType="text"
+        android:paddingLeft="8dp" />
+
+    <ToggleButton
+        android:id="@+id/efectivo"
+        android:layout_width="111dp"
+        android:layout_height="59dp"
+        android:layout_below="@+id/textView24"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/check_state"
+        android:checked="false"
+        android:textColor="#FFFFFF"
+        android:textOff="Efectivo"
+        android:textOn="Efectivo" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="111dp"
+        android:layout_height="56dp"
+        android:layout_below="@+id/textView24"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="71dp"
+        android:text="Pago con tarjeta proximamente"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView27"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="10dp"
+        android:text="Total productos" />
+
+    <TextView
+        android:id="@+id/textTotal_Productos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView27"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="49dp"
+        android:text="Total productos" />
+
+    <TextView
+        android:id="@+id/textCosto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textTotal_Productos"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="49dp"
+        android:text="Costo" />
+
+    <TextView
+        android:id="@+id/textTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textCosto"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="49dp"
+        android:text="Total" />
+
+    <Button
+        android:id="@+id/confirmBuy"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editcart"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_btn"
+        android:text="Confirmar compra"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="48dp"
+        android:layout_below="@+id/textView28"
+        android:layout_marginTop="10dp"
+        android:text="Costo de envío" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="48dp"
+        android:layout_below="@+id/textView29"
+        android:layout_marginTop="10dp"
+        android:text="Total" />
+
+    <Button
+        android:id="@+id/editcart"
+        android:layout_width="131dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView30"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/round_btn"
+        android:text="Editar Compra"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/efectivo"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="151dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/natural"
+        android:text="Resumen"
+        android:textSize="40sp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PreferencesActivity">
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="49dp"
+        app:srcCompat="@drawable/shadow" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@drawable/menu_design" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="126dp"
+        android:layout_marginTop="13dp"
+        android:fontFamily="@font/natural"
+        android:text="Preferencias"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp" />
+
+
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="106dp"
+        android:text="Por favor marca los items de tu interes a continuación"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/PreferencesButton"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/round_btn"
+        android:text="Actualizar datos"
+        android:textColor="#FFFFFF" />
+
+    <Switch
+        android:id="@+id/Artritis"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="175dp"
+        android:text="  Artritis"
+        android:textSize="20dp" />
+
+    <Switch
+        android:id="@+id/Cancer"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@id/Artritis"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="50dp"
+        android:text="  Cancer"
+        android:textSize="20dp" />
+
+    <Switch
+        android:id="@+id/Colesterol"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@id/Cancer"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="50dp"
+        android:textSize="20dp"
+        android:text="  Colesterol" />
+
+    <Switch
+        android:id="@+id/Piel"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@id/Colesterol"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="50dp"
+        android:textSize="20dp"
+        android:text="  Cuidade de la piel" />
+
+    <Switch
+        android:id="@+id/Diabetes"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@id/Piel"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="50dp"
+        android:textSize="20dp"
+        android:text="  Diabetes" />
+
+    <Switch
+        android:id="@+id/Estrenimiento"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@id/Diabetes"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="50dp"
+        android:textSize="20dp"
+        android:text="  Estreñimiento" />
+
+    <Switch
+        android:id="@+id/Peso"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@id/Estrenimiento"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="50dp"
+        android:textSize="20dp"
+        android:text="  Perdida de peso" />
+
+    <Switch
+        android:id="@+id/Estres"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@id/Peso"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="50dp"
+        android:textSize="20dp"
+        android:text="  Estrés" />
+
+
+
+
+</RelativeLayout>
